@@ -38,7 +38,7 @@ sudo /etc/init.d/dphys-swapfile start
 As user:
 ```
 cd ~
-bash < <(curl -s  https://raw.githubusercontent.com/xCoreDev/vanillacoin-scripts/master/build-linux.sh)
+bash < <(curl -s  https://raw.githubusercontent.com/xCoreDev/vanillacoin-scripts/dev/build-linux.sh)
 ```
 Install script auto launch vanillacoind at the end.
 Resume the screen session with:
@@ -63,7 +63,7 @@ As user: You must be in the vanillacoin/ folder before running the update script
 
 ```
 cd ~/vanillacoin/
-bash < <(curl -s  https://raw.githubusercontent.com/xCoreDev/vanillacoin-scripts/master/update-linux.sh)
+bash < <(curl -s  https://raw.githubusercontent.com/xCoreDev/vanillacoin-scripts/dev/update-linux.sh)
 ```
 Previous binaries are saved in the backup/ dir.
 
@@ -82,3 +82,4 @@ save & check crontab:
 crontab -l
 ```
 Then do a reboot test.
+
