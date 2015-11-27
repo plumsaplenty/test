@@ -37,6 +37,7 @@ rm -f openssl-*.tar.gz db-4.8.30.tar.gz boost_1_53_0.tar.gz
 # Github
 echo "Git clone vanillacoin in vanillacoin-src dir"
 git clone https://github.com/john-connor/vanillacoin.git vanillacoin-src
+sed --in-place -e '35d' $VANILLA_ROOT/vanillacoin-src/include/coin/protocol.hpp
 
 # OpenSSL
 echo "OpenSSL Install"
